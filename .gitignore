@@ -1,7 +1,3 @@
-output/**/*.html
-output/**/*.xml
-output/**/*.css
-output/*.html
-output/*.css
-output/*.xml
+output/*
+!output/fonts
 tmp/
