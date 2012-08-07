@@ -1,0 +1,11 @@
+<%= render 'header' %>
+
+  <h2><a href="<%= item[:link] %>"><%= item[:title] %></a></h2>
+
+  <%= yield %>
+
+  <p class="meta">Posted on <strong><%= item[:created_at] %></strong> in <strong><%= item[:categories].join(', ') %></strong> | Tagged with <strong><%= item[:tags].join(', ') %></strong> | <a href="<%= item[:path] %>" title="<%= item[:title] %>">Link to this</a></p>
+  
+  <%= render 'sharethis' %>
+  
+<%= render 'footer' %>

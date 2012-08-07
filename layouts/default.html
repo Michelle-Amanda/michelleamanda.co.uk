@@ -1,0 +1,7 @@
+<%= render 'header' %>
+
+  <%= yield %>
+  
+  <% if item[:author] %><cite><%= item[:author] %></cite><br /><br /><% end %>
+  
+<%= render 'footer' %>

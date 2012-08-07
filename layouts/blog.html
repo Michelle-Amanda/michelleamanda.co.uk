@@ -1,0 +1,12 @@
+<%= render 'header' %>
+  <%= yield %>
+  <% @site.sorted_articles.delete_if { |x| x[:status] == "draft" }.each do |item| %>
+  <h2><a href="<%= item.path %>"><%= item[:title] %></a></h2>
+
+  <%= item.compiled_content %>
+
+  <p class="meta">Posted on <strong><%= item[:created_at] %></strong> in <strong><%= item[:categories].join(', ') %></strong> | Tagged with <strong><%= item[:tags].join(', ') %></strong> | <a href="<%= item[:path] %>" title="<%= item[:title] %>">Link to this</a></p>
+  <br />
+  <% end %>
+  
+<%= render 'footer' %>

@@ -1,0 +1,7 @@
+<%= render 'header' %>
+  <%= yield %>
+  <% @site.sorted_articles.delete_if { |x| x[:status] == "draft" }.each do |article| %>
+   <p><%= link_to article[:title], article.path %> <% article[:categories].sort.each do |t| %><span class="tag"><%= t %></span><% end %><br />
+     <%= article[:created_at] %></p>
+  <% end %>
+<%= render 'footer' %>
