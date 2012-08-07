@@ -1,57 +1,17 @@
-@font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proximanova-regular-webfont-eot.eot');
-  src: url('/fonts/proximanova-regular-webfont-eot.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/proximanova-regular-webfont-woff.woff') format('woff'),
-  url('/fonts/proximanova-regular-webfont-ttf.ttf') format('truetype'),
-  url('/fonts/proximanova-regular-webfont-svg.svg#ProximaNovaRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/* fancypants fonts */
 
 @font-face {
-  font-family: 'ProximaNovaBoldItalic';
-  src: url('/fonts/proximanova-boldit-webfont-eot.eot');
-  src: url('/fonts/proximanova-boldit-webfont-eot.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/proximanova-boldit-webfont-woff.woff') format('woff'),
-  url('/fonts/proximanova-boldit-webfont-ttf.ttf') format('truetype'),
-  url('/fonts/proximanova-boldit-webfont-svg.svg#ProximaNovaBoldItalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'GartonMedium';
+    src: url('/fonts/garto16-webfont-eot.eot');
+    src: url('/fonts/garto16-webfont-eot.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/garto16-webfont-woff.woff') format('woff'),
+         url('/fonts/garto16-webfont-ttf.ttf') format('truetype'),
+         url('/fonts/garto16-webfont-svg.svg#GartonMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@font-face {
-  font-family: 'ProximaNovaLight';
-  src: url('/fonts/proximanova-light-webfont-eot.eot');
-  src: url('/fonts/proximanova-light-webfont-eot.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/proximanova-light-webfont-woff.woff') format('woff'),
-  url('/fonts/proximanova-light-webfont-ttf.ttf') format('truetype'),
-  url('/fonts/proximanova-light-webfont-svg.svg#ProximaNovaLight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ProximaNovaRegularItalic';
-  src: url('/fonts/proximanova-regitalic-webfont-eot.eot');
-  src: url('/fonts/proximanova-regitalic-webfont-eot.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/proximanova-regitalic-webfont-woff.woff') format('woff'),
-  url('/fonts/proximanova-regitalic-webfont-ttf.ttf') format('truetype'),
-  url('/fonts/proximanova-regitalic-webfont-svg.svg#ProximaNovaRegularItalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ProximaNovaBold';
-  src: url('/fonts/proximanova-bold-webfont-eot.eot');
-  src: url('/fonts/proximanova-bold-webfont-eot.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/proximanova-bold-webfont-woff.woff') format('woff'),
-  url('/fonts/proximanova-bold-webfont-ttf.ttf') format('truetype'),
-  url('/fonts/proximanova-bold-webfont-svg.svg#ProximaNovaBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/* actual page styles go here! */
 
 * {
   margin: 0;
@@ -59,9 +19,9 @@
 }
 
 body {
-  background: #FFFFFF;
+  background: #111111;
   text-align: center;
-  font-family: 'ProximaNova', Helvetica, Arial, sans-serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
 }
 
 a {
@@ -70,11 +30,11 @@ a {
 
 a:link,
 a:visited {
-  color: #3887B9;
+  color: #66BBFF;
 }
 
 a:hover {
-  color: #11679D;
+  color: #66BBFF;
 }
 
 #container {
@@ -82,11 +42,13 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
 h1 {
+  font-family: 'GartonMedium', 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
+  font-style: normal;
   font-size: 40px;
   font-weight: normal;
   line-height: 40px;
@@ -96,7 +58,7 @@ h1 {
 h1 a:link,
 h1 a:hover,
 h1 a:visited {
-  color: #000000;
+  color: #CCEEFF;
   text-decoration: none;
 }
 
@@ -121,7 +83,7 @@ p.meta {
   margin: 0;
   margin-top: -10px;
   font-size: 12px;
-  color: #666666;
+  color: #99BBFF;
 }
 
 pre {
@@ -134,42 +96,25 @@ pre {
   padding: 0.75em 1.625em;
 }
 
-.gist {
-  margin-bottom: 20px;
-}
 
-.gist div,
-.gist-syntax,
-.gist-data {
-  font-family: 'Bitstream Vera Sans Mono', Courier, monospace !important;
-  font-size: 13px;
-}
-
-.gist .gist-meta {
-  font-family: 'ProximaNova', Helvetica, Arial, sans-serif !important;
-}
-
-.gist .gist-meta a {
-  color: #3887B9 !important;
-}
 
 blockquote {
   margin: 0 3em;
 }
 
 blockquote p {
-  font-family: Georgia, "Bitstream Charter", serif;
+  color: #99BBFF;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-style: italic;
   font-weight: normal;
 }
 
 cite {
-  color: #666;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  color: #99BBFF;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 14px;
   font-style: normal;
   line-height: normal;
-  text-transform: uppercase;
 }
 
 ul#nav {
