@@ -134,24 +134,7 @@ pre {
   padding: 0.75em 1.625em;
 }
 
-.gist {
-  margin-bottom: 20px;
-}
 
-.gist div,
-.gist-syntax,
-.gist-data {
-  font-family: 'Bitstream Vera Sans Mono', Courier, monospace !important;
-  font-size: 13px;
-}
-
-.gist .gist-meta {
-  font-family: 'ProximaNova', Helvetica, Arial, sans-serif !important;
-}
-
-.gist .gist-meta a {
-  color: #3887B9 !important;
-}
 
 blockquote {
   margin: 0 3em;

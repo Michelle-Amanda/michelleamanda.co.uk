@@ -19,6 +19,7 @@ GEM
 PLATFORMS
   java
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   active_support
