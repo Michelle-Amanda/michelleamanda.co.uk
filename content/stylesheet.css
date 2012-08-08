@@ -158,3 +158,22 @@ ol {
   line-height: normal;
   padding-top: 10px;
 }
+
+.maintext {
+  color: #99BBFF;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+.title {
+  color: #99BBFF;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 16px;
+  font-weight:900;
+  padding-left: 30px;
+  margin-left: 10px;
+}
