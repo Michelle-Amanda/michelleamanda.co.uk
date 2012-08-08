@@ -20,6 +20,7 @@
 
 body {
   background: #111111;
+  color: #66BBFF;
   text-align: center;
   font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
 }
@@ -159,17 +160,19 @@ ol {
   padding-top: 10px;
 }
 
-.maintext {
+/* you can put text styles here */
+
+p {
   color: #99BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-size: 16px;
   font-style: normal;
   line-height: normal;
-  padding-left: 30px;
+/*  padding-left: 30px;*/
   margin-left: 10px;
 }
 
-.title {
+h2 {
   color: #99BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-size: 16px;
