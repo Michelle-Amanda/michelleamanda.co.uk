@@ -212,6 +212,10 @@ h2 {
   margin-left: 50px;
 }
 
+.tweet a {
+  text-decoration: underline;
+}
+
 .tweet img {
   margin-right: 10px;
   float: left;
@@ -223,6 +227,6 @@ ul.tweet_list {
 
 span.tweet_time a {
   display: block;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: underline;
 }
