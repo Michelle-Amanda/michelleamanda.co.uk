@@ -11,15 +11,16 @@
             $(".tweet").tweet({
                 username: "_rainflower",
                 join_text: "auto",
-                avatar_size: 0,
+                avatar_size: 75,
                 count: 1,
                 fetch: 40,
-                filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
+                filter: function(t){ return ! /^(RT )?@\w+/.test(t.tweet_raw_text); },
                 auto_join_text_default: "", 
                 auto_join_text_ed: "",
                 auto_join_text_ing: "",
                 auto_join_text_reply: "",
                 auto_join_text_url: "",
+                template: "{avatar} {text} {time}",
                 loading_text: "loading tweets..."
             });
         });

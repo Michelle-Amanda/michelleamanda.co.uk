@@ -96,8 +96,6 @@ pre {
   padding: 0.75em 1.625em;
 }
 
-
-
 blockquote {
   margin: 0 3em;
 }
@@ -107,6 +105,7 @@ blockquote p {
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-style: italic;
   font-weight: normal;
+  margin-left: -50px;
 }
 
 cite {
@@ -115,7 +114,7 @@ cite {
   font-size: 14px;
   font-style: normal;
   line-height: normal;
-  margin-left: 85px;
+  margin-left: 35px;
 }
 
 ul#nav {
@@ -187,25 +186,43 @@ h2 {
   font-size: 16px;
   font-weight: normal;
   line-height: 40px;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   padding-left: 70px;
   margin-left: 0px;
 }
 
+/* layout funsies */
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+#footer {
+  clear: both;
+  margin-left: 60px;
+}
+
 /* twitter shindig on homepage */
 .tweet {
+  margin-left: 50px;
+}
 
+.tweet img {
+  margin-right: 10px;
+  float: left;
 }
 
 ul.tweet_list {
   list-style-type: none;
 }
 
-span.tweet_time {
-  float: right;
-}
-
 span.tweet_time a {
-  font-size: 12px;
+  display: block;
+  font-size: 14px;
   text-decoration: underline;
 }

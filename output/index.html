@@ -11,15 +11,16 @@
             $(".tweet").tweet({
                 username: "_rainflower",
                 join_text: "auto",
-                avatar_size: 0,
+                avatar_size: 75,
                 count: 1,
                 fetch: 40,
-                filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
+                filter: function(t){ return ! /^(RT )?@\w+/.test(t.tweet_raw_text); },
                 auto_join_text_default: "", 
                 auto_join_text_ed: "",
                 auto_join_text_ing: "",
                 auto_join_text_reply: "",
                 auto_join_text_url: "",
+                template: "{avatar} {text} {time}",
                 loading_text: "loading tweets..."
             });
         });
@@ -37,7 +38,9 @@
       
       
 
-  <blockquote>
+  <div class="left">
+  
+<blockquote>
 	<p> _________________________________________________</p>
   <p>"I have crossed over to a place where I never thought I'd be.</p>
   	<p>I am someone I would have never imagined.</p>
@@ -47,7 +50,12 @@
   <p> _________________________________________________ </p>
 </blockquote>
 
-<div class="tweet"></div>
+</div>
+
+<div class="right">
+  <h2>@_rainflower on Twitter</h2>
+  <div class="tweet"></div>
+</div>
 
   
     
