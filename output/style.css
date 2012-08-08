@@ -190,3 +190,17 @@ h2 {
   padding-left: 70px;
   margin-left: 0px;
 }
+
+/* twitter shindig on homepage */
+.tweet {
+
+}
+
+ul.tweet_list {
+  list-style-type: none;
+}
+
+span.tweet_time a {
+  font-size: 12px;
+  text-decoration: underline;
+}

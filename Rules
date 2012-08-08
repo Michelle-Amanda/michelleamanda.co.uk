@@ -14,7 +14,7 @@
 #   because “*” matches zero or more characters.
 
 # Are we excluding any files?
-exclusions = ['robots.txt']
+exclusions = ['robots.txt', 'jquery.js', 'tweet.js']
 
 compile '/feed/' do
   filter :erb
@@ -34,15 +34,13 @@ compile '/stylesheet/' do
 end
 
 compile '/fonts/*/' do
-  nil
 end
 
 route '/fonts/*/' do
-  nil
 end
 
 compile '*' do
-  if item.binary?
+  if item.binary? || exclusions.include?(item.identifier.gsub('/', '') + '.' + item[:extension])
     # don’t filter binary items
   else
     filter :kramdown
