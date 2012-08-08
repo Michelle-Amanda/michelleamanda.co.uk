@@ -201,6 +201,10 @@ ul.tweet_list {
   list-style-type: none;
 }
 
+span.tweet_time {
+  float: right;
+}
+
 span.tweet_time a {
   font-size: 12px;
   text-decoration: underline;
