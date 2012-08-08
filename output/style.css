@@ -44,7 +44,6 @@ a:hover {
   margin-right: auto;
   text-align: left;
   margin-top: 30px;
-  margin-bottom: 40px;
 }
 
 h1 {
@@ -59,7 +58,7 @@ h1 {
 h1 a:link,
 h1 a:hover,
 h1 a:visited {
-  color: #CCEEFF;
+  color: #66BBFF;
   text-decoration: none;
 }
 
@@ -84,7 +83,7 @@ p.meta {
   margin: 0;
   margin-top: -10px;
   font-size: 12px;
-  color: #99BBFF;
+  color: #66BBFF;
 }
 
 pre {
@@ -104,25 +103,28 @@ blockquote {
 }
 
 blockquote p {
-  color: #99BBFF;
+  color: #66BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-style: italic;
   font-weight: normal;
 }
 
 cite {
-  color: #99BBFF;
+  color: #66BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
   font-size: 14px;
   font-style: normal;
   line-height: normal;
+  margin-left: 20px;
 }
 
 ul#nav {
   list-style-type: none;
   padding-bottom: 10px;
   margin: 0;
-  margin-top: 5px;
+  margin-top: 25px;
+  margin-left: 30px;
+  font-weight:800;
 }
 
 ul#nav li {
@@ -151,32 +153,32 @@ ol {
   text-align: left;
 }
 
-#footer {
-  color: #99BBFF;
-  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-  font-size: 14px;
-  font-style: normal;
-  line-height: normal;
-  padding-top: 10px;
-}
 
 /* you can put text styles here */
 
 p {
-  color: #99BBFF;
+  color: #66BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   line-height: normal;
-/*  padding-left: 30px;*/
+  padding-left: 30px;
   margin-left: 10px;
-  line-height: 30px;
+  line-height: 20px;
+}
+
+#footer p {
+  color: #66BBFF;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 12px;
+  font-style: normal;
+  padding-top: 10px;
 }
 
 h2 {
-  color: #99BBFF;
+  color: #66BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight:900;
   padding-left: 30px;
   margin-left: 10px;
