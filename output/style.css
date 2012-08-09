@@ -191,6 +191,11 @@ h2 {
   margin-left: 0px;
 }
 
+.sharebuttons {
+  margin-left: 67px;
+  padding-top: 10px;
+}
+
 /* layout funsies */
 .left {
   float: left;
@@ -204,7 +209,7 @@ h2 {
 
 #footer {
   clear: both;
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 /* twitter shindig on homepage */
