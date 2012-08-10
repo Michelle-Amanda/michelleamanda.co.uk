@@ -241,7 +241,6 @@ ul.tweet_list li {
 }
 
 span.tweet_time a {
-  display: block;
   font-size: 13px;
   text-decoration: underline;
 }
