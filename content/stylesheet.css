@@ -170,6 +170,10 @@ p {
   max-width: 750px;
 }
 
+p a {
+  text-decoration: underline;
+}
+
 #footer p {
   color: #66BBFF;
   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
