@@ -197,6 +197,11 @@ h2 {
 }
 
 /* layout funsies */
+
+.centre {
+  margin-left: 70px;
+}
+
 .left {
   float: left;
   width: 50%;
