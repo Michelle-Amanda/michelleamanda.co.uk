@@ -216,35 +216,3 @@ h2 {
   margin-left: 0px;
 }
 
-/* twitter shindig on homepage */
-h2#twitter {
-  margin-top: 12px;
-}
-
-.tweet {
-  margin-left: 50px;
-}
-
-.tweet a {
-  text-decoration: underline;
-}
-
-.tweet img {
-  margin-right: 20px;
-  float: left;
-}
-
-ul.tweet_list {
-  list-style-type: none;
-}
-
-ul.tweet_list li {
-  display: block;
-  height: 80px;
-  margin-bottom: 30px;
-}
-
-span.tweet_time a {
-  font-size: 13px;
-  text-decoration: underline;
-}
