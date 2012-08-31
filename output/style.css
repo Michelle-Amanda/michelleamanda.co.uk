@@ -102,7 +102,7 @@ blockquote {
 
 blockquote p {
   color: #7ABFA7;
-  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   font-style: italic;
   font-weight: normal;
   margin-left: -50px;
@@ -110,7 +110,7 @@ blockquote p {
 
 cite {
   color: #7ABFA7;
-  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   font-size: 14px;
   font-style: normal;
   line-height: normal;
@@ -160,7 +160,7 @@ ol {
 
 p {
   color: #7ABFA7;
-  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   font-size: 14px;
   font-style: normal;
   line-height: normal;
@@ -170,9 +170,13 @@ p {
   max-width: 750px;
 }
 
+p a {
+  text-decoration: underline;
+}
+
 #footer p {
   color: #7ABFA7;
-  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   font-size: 12px;
   font-style: normal;
   padding-top: 10px;
@@ -181,7 +185,7 @@ p {
 
 h2 {
   color: #7ABFA7;
-  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
   font-style: normal;
   font-size: 16px;
   font-weight: normal;
@@ -205,6 +209,12 @@ h2 {
 .left {
   float: left;
   width: 50%;
+}
+
+img.left {
+  float: left;
+  width: auto;
+  margin-right: 20px;
 }
 
 .right {
